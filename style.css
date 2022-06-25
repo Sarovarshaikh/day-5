@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.bg-Image{
+    background-image: url("");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+}
+.buttonBtn{
+    margin-right: 30px;
+    background: #00a5ec 0 0 no-repeat padding-box;
+    border: none;
+    padding: 12px 52px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+    font-size:25px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.mastreHeadText{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+}
+nav{
+    background-color: aqua;
+    height: 80px;
+    width: 100%;
+    padding: 0 100px;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+
+    text-transform: uppercase;
+}
+a:active,a:hover{
+    background-color: #1b9bff;
+    transition: .5s;
+}
+.container{
+    width: 43%;
+    margin: auto;
+    display: flex;
+    border: 1px solid red;
+   } 
+   .card1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 10px;
+    opacity: 0.5;
+    font-size:100px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   .card2{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 10px;
+    opacity: 0.5;
+    font-size:100px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   .card3{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 10px;
+    opacity: 0.5;
+    font-size:100px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   @media only screen and (max-width:600px){
+    .container{
+        width: 100%;
+        margin: auto;
+        display: inline;
+    }
+    .card1{
+        width: 98%;
+        /* margin: auto; */
+
+    }
+    .card2{
+        width: 98%;
+        /* margin: auto; */
+    }
+    .card3{
+        width: 98%;
+        /* margin: auto; */
+    }
+   }

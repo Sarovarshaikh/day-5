@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>displa grid</title>
+    <style>
+       .gird{
+        display: grid;
+        grid-template-areas: "h h h h h h"
+        "main main menu menu right right"
+        "main main footer footer footer footer ";
+        gap: 10px;
+        text-align: center;
+        background-color: aliceblue;
+        padding: 20px;
+        border: 5px solid;
+       } 
+       .head{
+        grid-area: h;
+    
+        background: red;
+        border: 5px solid;
+    /* pading: 20px; */
+        padding: 10px;
+       font-size: 26px;
+       color: white;
+
+       }
+       .main{
+        grid-area: main;
+  
+        background: red;
+        border: 5px solid;
+    /* pading: 20px; */
+        padding: 10px;
+       font-size: 26px;
+       color: white;
+       }
+       .menu{
+        grid-area: menu;
+ 
+        background: red;
+        border: 5px solid;
+    /* pading: 20px; */
+        padding: 10px;
+       font-size: 26px;
+       color: white;
+       }
+       .right{
+        grid-area: right;
+  
+        background: red;
+        border: 5px solid;
+    /* pading: 20px; */
+        padding: 10px;
+       font-size: 26px;
+       color: white;
+       }
+       .footer{
+        grid-area: footer;
+      
+        background: red;
+        border: 5px solid;
+    /* pading: 20px; */
+        padding: 10px;
+       font-size: 26px;
+       color: white;
+       }
+    </style>
+</head>
+<body>
+    <h1>display grid system </h1>
+    <div class="gird">
+        <div class="head">Header</div>
+        <div class="main">Main</div>
+        <div class="menu">Menu</div>
+        <div class="right">Right</div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>

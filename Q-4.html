@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <style>
+    .button1{
+        text-align: center;
+        /* padding: 10px */
+        padding-left:40px;
+        padding-right:40px;
+        padding-top:10px;
+        padding-bottom:10px;
+        margin: 20px;
+        border: 2px solid pink;
+        border-radius: 4px;
+        background-color: blue;
+        font-size: large;
+        color: white;
+        font-weight: 700;
+        
+        }
+        .button2{
+        text-align: center;
+        /* padding: 10px */
+        padding-left:40px;
+        padding-right:40px;
+        padding-top:10px;
+        padding-bottom:10px;
+        margin: 20px;
+        border: 2px solid pink;
+        border-radius: 4px;
+        background-color: blue;
+        font-size: large;
+        color: white;
+        font-weight: 700;
+
+        }
+        .button2:hover{
+            background-color: blue;
+            color: white;
+       
+        }
+        .button1:hover{
+            background-color: pink;
+            color: white;
+        }
+        @media only screen and (max-width:600px){
+        .mainBtn{
+            width: 100%;
+            margin: auto;
+            display: inline;
+            background-color: green;
+        }
+        .button1{
+            width:50%;
+            margin: auto;
+            background-color: green;
+        }
+        .button2{
+            width:50%;
+            margin: auto;
+            background-color: green;
+        }
+        }
+        @media only screen and (min-width:768px){
+        .mainBtn{
+            width: 100%;
+            margin: auto;
+            display: inline;
+            /* background-color: red; */
+            float: left;
+        }
+        .button1{
+            width:50%;
+            margin: auto;
+            background-color: red;
+        }
+        .button2{
+            width:50%;
+            margin: auto;
+            background-color: red;
+        }
+        }
+        @media only screen and (min-width:992px){
+        .mainBtn{
+            width: 100%;
+            margin: auto;
+            display: inline;
+            /* background-color:red; */
+            float: left;
+        }
+        .button1{
+            width:50%;
+            margin: auto;
+            background-color: red;
+        }
+        .button2{
+            width:50%;
+            margin: auto;
+            background-color: red;
+        }
+        }
+        @media only screen and (min-width:1200px){
+        .mainBtn{
+            width: 100%;
+            margin: auto;
+            display: inline;
+            /* background-color: red; */
+            float: left;
+        }
+        .button1{
+            width:40%;
+            margin: auto;
+            background-color: red;
+        }
+        .button2{
+            width:40%;
+            margin: auto;
+            background-color: red;
+        }
+        }
+   
+    </style>
+</head>
+<body>
+    <div class="mainBtn">
+    <button class="button1">Login</button>
+    <button class="button2">Sign Up</button>
+    </div>
+</body>
+</html>
